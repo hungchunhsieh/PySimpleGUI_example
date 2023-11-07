@@ -13,3 +13,8 @@ pyenv global system
 pyenv uninstall 3.11.3
 pyenv install 3.11.3
 ```
+
+To test Tkinter is installed use the following command:
+```
+python -m tkinter -c 'tkinter._test()'
+```
